@@ -52,7 +52,7 @@ def update(post_id):
             return 'Update Success' 
             
         except Exception as e:
-            # Handle registration failure
+            # Handle failure
             db.session.rollback()
             return 'Posting failed: ' + str(e)
         
