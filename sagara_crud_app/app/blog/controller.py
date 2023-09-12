@@ -38,8 +38,10 @@ def update(post_id):
     blg=Blog.query.get(post_id)
     
     if blg.author==session["user_id"]:
-        blg.title=request.form["title"]
-        blg.post=request.form["post"]
+        if "title" is not None:
+            blg.title=request.form["title"]
+        if "post" is not None:
+            blg.post=request.form["post"]
     
 
         try:
