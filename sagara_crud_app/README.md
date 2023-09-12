@@ -28,7 +28,7 @@
 3. http://localhost:5000/profile  [GET] **
    get all user
    
-4. http://localhost:5000/profile/<int:user_id>  [GET]**
+4. http://localhost:5000/profile/<int:user_id>  [GET] **
    get user by id
 
 5. http://localhost:5000/update_profile/<int:user_id>  [PUT] **
@@ -40,14 +40,14 @@
    "username":"user1New"
    "email":"ert@ini.com"
 
-6. http://localhost:5000/logout  [GET]**
+6. http://localhost:5000/logout  [GET] **
    destroy session and logout
 
 
 
 ## Endpont Posting Blog
 
-1. http://localhost:5000/add  [POST]
+1. http://localhost:5000/add  [POST] **
    using form-data body in postman:
 
    "title": "Title Post"
@@ -77,9 +77,8 @@
 
 
 ### Unit Test
-run these commands:
 
-- cd sagara_crud_app
+- run cmd 'cd sagara_crud_app'
 - change DB_HOST to 'localhost' 
 - change FLASK_ENV to 'testing'
-- python -m unittest
+- run cmd 'python -m unittest'
