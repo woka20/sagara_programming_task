@@ -1,0 +1,16 @@
+mysqlclient==2.0.3
+python-dotenv
+flasgger
+Flask
+Flask-Bcrypt
+Flask-Login
+Flask-Migrate
+Flask-Script
+Flask-SendGrid
+Flask-SQLAlchemy
+Flask-WTF
+jsonschema
+pymysql
+bcrypt
+
+
