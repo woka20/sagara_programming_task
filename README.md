@@ -1,4 +1,4 @@
-### Run by usi8ng this command:
+### Run by using this command:
 
 'python algorithm1.py'
 
