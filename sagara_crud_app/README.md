@@ -72,3 +72,14 @@
 
 
 ** : these endpoints need login first to be accessed
+
+
+
+
+### Unit Test
+run these commands:
+
+- cd sagara_crud_app
+- change DB_HOST to 'localhost' 
+- change FLASK_ENV to 'testing'
+- python -m unittest
